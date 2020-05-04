@@ -1,0 +1,135 @@
+.hidden{
+	display: none;
+}
+.red{
+	color:red ;
+}
+.black{
+	color: black;
+}	
+
+/* 登录界面 */
+.logIn-page {	
+	background-image: url(../img/sign_bg.db29b0fb.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	background-color: #b8e5f8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height:500px;
+	min-width: 500px;
+}
+#logo{
+	height: 81px;
+	width: 128px;
+	margin-bottom: 20px;
+}
+#logIn{
+	background-color: #0084ff;
+	border: none;
+	color: #FFFFFF;
+	height: 40px;
+	margin: 10px 0 10px 0 ;
+}
+#logIn:hover{
+	background-color: #0077e6;
+	cursor: pointer;
+}
+
+#logIn-box{
+	width: 400px;
+	background-color: #FFFFFF;
+	padding: 1em 2em 0 2em;
+	display: flex;
+	box-sizing: border-box;
+	flex-direction: column;
+	justify-content: space-around;
+	box-sizing: border-box;
+}
+#logIn-box input{
+	margin-bottom: 20px;
+	outline-style: none;
+	height: 40px;
+	font-size: 15px;
+	border: 0px;
+	border-bottom: 1px solid gray;
+}
+.main-page{
+	background-color: #f6f6f6;
+	height: 100vh;
+	width: 100%;
+	min-width: 1200px;
+}
+#page-header{
+	background-color: #FFFFFF;
+	position: fixed;
+	top: 0;
+	height: 52px;
+	width: 100%;
+	min-width: 1032px;
+	justify-content: center;
+	align-items: center;
+}
+#inner-header{
+	margin: 0 auto;
+	display: flex;
+	height: 52px;
+	width: 1000px;
+	justify-content: center;
+	align-items: center;
+}
+#nav-1{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 15px;
+	width: 222px;
+	height: 50px;
+}
+#zhihu{
+	font-size: 25px;
+	color: #0084FF;
+	background-color: white;
+	border: none;
+}
+#search{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-width: 400px;
+}
+#search-box{
+	display: flex;
+	width: 326px;
+	height: 34px;
+	background-color: #f6f6f6;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #8590a6;
+	border-radius: 3px;
+}
+#search-btn{
+	background-color: #f6f6f6;
+	border: none;
+	flex-grow: 1;
+}
+#search-text{
+	border: none;
+	flex-grow: 4;
+	background-color: #f6f6f6;
+}
+#ask{
+	height: 34px;
+	width: 58px;
+	display: inline-block;
+	background-color: #0077E6;
+	border: none;
+	color: white;
+	text-align: center;
+	line-height: 34px;
+}

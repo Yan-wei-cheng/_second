@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/second.css"/>
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+		<script type="text/javascript" src="js/second.js"></script>
+		<title></title>
+	</head>
+	<body>
+		<!-- 登录界面 -->
+		<div class= "logIn-page">
+			<img src="img/v2-a47051e92cf74930bedd7469978e6c08_hd.png" id="logo"/>
+			<div id="logIn-box">
+				<input type="text" id="username" placeholder="用户名" />
+				<input type="password" id="password" placeholder="密码" />
+				<button type="button" id="logIn">登录</button>	
+			</div>
+		</div>
+		<div class="hidden" >
+				<!-- 顶部导航栏 -->
+				<div id="page-header">
+					<div id="inner-header">
+						<a id="zhihu" href="">知乎</a>
+						<ul id="nav-1">
+							<li>首页</li>
+							<li>发现</li>
+							<li>等你来答</li>
+						</ul>
+						<div id="search">
+							<div id="search-box">
+								<input type="text" id="search-text" />
+								<button type="button" id="search-btn"><img src="img/icon_search.png" ></button>
+							</div>
+							<button type="button" id="ask">提问</button>
+						</div>
+					</div>
+				</div>
+				<button type="button" id="logOut">退出登录</button>
+			</div>
+	</body>
+		<!-- <button type="button" id="getInfo">获取信息</button> -->
+</html>
